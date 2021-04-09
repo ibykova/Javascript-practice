@@ -1,0 +1,209 @@
+@media print {
+  #about,
+  #tmCarousel,
+  #contact,
+  .tm-sidebar,
+  .img-fluid.img-contact-us,
+  .heading,
+  .blocks,
+  .ideas,
+  .navigation,
+  *::after,
+  *::before {
+    display: none;
+  }
+
+  div.container {
+    padding: 0;
+  }
+
+  div.tm-main-content {
+    max-width: 530px;
+    display: block;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #home {
+    width: 500px;
+    margin-bottom: 0;
+  }
+
+  div.tm-banner {
+    padding: 0;
+    border: 0;
+  }
+  .tm-banner-inner {
+    height: 200px;
+  }
+
+  div.padding-medium.flex-item.tm-team-description-container.flex-item
+    h2.tm-section-title {
+    color: blue;
+  }
+  .padding-medium.flex-item.tm-team-description-container.flex-item {
+    display: block;
+    width: 70%;
+  }
+  .flex-item {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  .flex-item img {
+    width: 170px;
+    position: absolute;
+    right: 10px;
+    bottom: 110px;
+  }
+  .tm-content-box.flex-2-col {
+    margin-bottom: 0;
+    height: 360px;
+    padding: 0;
+  }
+  .tm-footer {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.tm-banner {
+  border: 30px solid #f5f5f5;
+  padding: 0;
+}
+
+div.tm-sidebar {
+  box-shadow: -2px -2px 10px #888888;
+  box-sizing: border-box;
+}
+
+.tm-content-box {
+  box-shadow: -2px -2px 10px #888888;
+  box-sizing: border-box;
+}
+
+.blocks {
+  box-shadow: -2px -2px 10px #888888;
+  box-sizing: border-box;
+}
+
+.flex-2-col {
+  display: flex;
+}
+
+li.box.box-bg:hover {
+  background-color: #87cefa;
+}
+
+h2.tm-section-title.tm-section-title-box.tm-box-bg-title:hover {
+  color: white;
+  font-weight: 900;
+}
+
+p::first-letter {
+  color: #87cefa;
+  font-size: 30px;
+  line-height: 1;
+}
+
+#ideas h2.tm-section-title {
+  color: gainsboro;
+  letter-spacing: 5px;
+}
+
+section:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 40px solid #87cefa;
+  border-right: 250px solid transparent;
+}
+
+section {
+  position: relative;
+}
+
+div.tm-content-box.flex-2-col {
+  align-items: center;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+section p {
+  line-height: 1.9;
+  text-indent: 20px;
+}
+
+.boxes.gallery-container,
+.box.box-work {
+  padding: 5px;
+}
+
+li.box.box-work:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.boxes.gallery-container p {
+  text-indent: 0px;
+}
+
+.boxes.gallery-container p::first-letter {
+  color: #888888;
+}
+
+div.padding-medium a {
+  color: #888888;
+}
+
+div.padding-medium a.text::after {
+  content: "New";
+  color: red;
+  vertical-align: super;
+  font-size: x-small;
+}
+
+div.padding-medium a:visited {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+div.padding-medium a:hover {
+  color: #87cefa;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+.form-group.mandatory-field::after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}
+
+#contact {
+  position: relative;
+}
+
+.btn.btn-primary.submit-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #fff;
+  color: #87cefa;
+  border: 1px solid #87cefa;
+  border-radius: 0;
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+}
+
+.btn.btn-primary.submit-btn:hover {
+  background-color: #87cefa;
+  color: #fff;
+}
+
+.tm-main-nav a:hover {
+  background-color: #f5f5f5;
+}
